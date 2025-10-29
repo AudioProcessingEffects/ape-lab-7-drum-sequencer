@@ -14,13 +14,25 @@
             {
                 "box": {
                     "bubble": 1,
+                    "bubbleside": 3,
+                    "id": "obj-10",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 88.0, 45.0, 64.0, 24.0 ],
+                    "text": "START"
+                }
+            },
+            {
+                "box": {
+                    "bubble": 1,
                     "id": "obj-7",
                     "linecount": 6,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 425.0, 69.0, 388.0, 93.0 ],
-                    "text": "Instead of using the metro/counter combination, you could also use the [tempo] object for timing!\n\nIt's arguments are tempo, beat multiplier and beat divisions. In this example, we have set an intial bpm of 120, a multiplier of 1 (to count upwards by one each time and 16 subdivisions per bar."
+                    "text": "Instead of using the metro/counter combination, you could also use the [tempo] object for timing!\n\nIt's arguments are tempo, beat multiplier and beat divisions. In this example, we have set an initial bpm of 120, a multiplier of 1 (to count upwards by one each time and 16 subdivisions per bar."
                 }
             },
             {
@@ -75,7 +87,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 199.0, 48.0, 50.0, 22.0 ]
+                    "patching_rect": [ 199.0, 46.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -99,7 +111,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 152.0, 47.0, 24.0, 24.0 ]
+                    "patching_rect": [ 152.0, 45.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -109,7 +121,7 @@
                     "numinlets": 5,
                     "numoutlets": 4,
                     "outlettype": [ "int", "", "", "int" ],
-                    "patching_rect": [ 152.0, 122.0, 75.0, 22.0 ],
+                    "patching_rect": [ 152.0, 120.0, 75.0, 22.0 ],
                     "text": "counter 0 15"
                 }
             },
@@ -120,7 +132,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 152.0, 85.0, 66.0, 22.0 ],
+                    "patching_rect": [ 152.0, 83.0, 66.0, 22.0 ],
                     "text": "metro 250."
                 }
             },
@@ -175,7 +187,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 152.0, 158.0, 81.0, 22.0 ],
+                    "patching_rect": [ 152.0, 156.0, 81.0, 22.0 ],
                     "text": "getcolumn $1"
                 }
             },
