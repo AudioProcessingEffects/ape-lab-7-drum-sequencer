@@ -13,6 +13,29 @@
         "boxes": [
             {
                 "box": {
+                    "bubble": 1,
+                    "id": "obj-7",
+                    "linecount": 6,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 425.0, 69.0, 388.0, 93.0 ],
+                    "text": "Instead of using the metro/counter combination, you could also use the [tempo] object for timing!\n\nIt's arguments are tempo, beat multiplier and beat divisions. In this example, we have set an intial bpm of 120, a multiplier of 1 (to count upwards by one each time and 16 subdivisions per bar."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 327.0, 104.0, 92.0, 22.0 ],
+                    "text": "tempo 120 1 16"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-37",
                     "maxclass": "comment",
                     "numinlets": 1,
